@@ -280,8 +280,8 @@ Global $g_sUrlGitHub			= "https://github.com/rizonesoft/Firemin|GitHub.com/rizon
 Global $g_sUrlGitHubIssues		= "https://github.com/rizonesoft/Firemin/issues|GitHub.com/rizonesoft/Firemin/issues"			; https://github.com/rizonesoft/Firemin/issues
 Global $g_sUrlPayPal			= "https://www.paypal.com/donate/?hosted_button_id=7UGGCSDUZJPFE|PayPal.com/donate"				; https://www.paypal.com/donate/?hosted_button_id=7UGGCSDUZJPFE
 Global $g_sUrlSA				= "https://en.wikipedia.org/wiki/South_Africa|Wikipedia.org/wiki/South_Africa"					; https://en.wikipedia.org/wiki/South_Africa
-Global $g_sUrlProgPage			= "https://github.com/yourusername/bravin|GitHub.com/yourusername/bravin"
-Global $g_sUrlUpdate			= "https://github.com/yourusername/bravin/releases"
+Global $g_sUrlProgPage			= "https://github.com/Paquito0/Bravin|GitHub.com/Paquito0/Bravin"
+Global $g_sUrlUpdate			= "https://github.com/Paquito0/Bravin/releases"
 Global $g_sUrlUpdateServer		= "https://cdn2.rizonesoft.com/update/"
 
 ;~ Path Variables
