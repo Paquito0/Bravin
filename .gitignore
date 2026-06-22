@@ -1,0 +1,13 @@
+# Compiled binaries
+*.exe
+
+# User config (personal settings)
+Bravin.ini
+
+# AutoIt temp files
+*.a3x
+*.tmp
+
+# Windows
+Thumbs.db
+Desktop.ini
