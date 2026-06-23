@@ -5,18 +5,18 @@ Otimizador de memória para navegadores Windows. Reduz o consumo de RAM dos proc
 ## Funcionalidades
 
 - Reduz memória do navegador em intervalos configuráveis (500ms a 2h)
-- Limite de uso: só reduz se a memória ultrapassar um threshold (MB)
+- Limite de uso: só reduz se a memória ultrapassar o limite definido (MB)
 - Processos estendidos: aplique a otimização a outros processos além do navegador
-- Suporta Brave, Chrome, Edge, Firefox, Waterfox e qualquer Chromium-based
+- Suporta Brave, Chrome, Edge, Firefox, Waterfox e qualquer navegador baseado em Chromium
 - Modo seguro e incognito por navegador
 - Atualização automática
-- Multi-idioma (Inglês, Português, Português BR)
-- Iniciar com o Windows (atalho no Startup)
+- Multilíngue (Inglês, Português, Português do Brasil)
+- Iniciar com o Windows (atalho na pasta Startup)
 
 ## Requisitos
 
 - Windows Vista ou superior
-- [AutoIt3](https://www.autoitscript.com/) (para compilar a partir do fonte)
+- [AutoIt3](https://www.autoitscript.com/) (para compilar a partir do código fonte)
 
 ## Compilação
 
@@ -34,7 +34,7 @@ Aut2Exe /in source\Bravin.au3 /out Bravin.exe /x64
 
 ## Configuração
 
-Edite `Bravin.ini` na raiz (Portable) ou em `%APPDATA%\Rizonesoft\Bravin\`:
+Edite `Bravin.ini` na raiz (modo portátil) ou em `%APPDATA%\Rizonesoft\Bravin\`:
 
 ```ini
 [Bravin]
@@ -44,7 +44,7 @@ BoostEnabled=1
 Boost=500              ; intervalo em ms
 LimitEnabled=1
 ReduceLimit=10         ; MB - só reduz se acima disso
-ExtendedProcs=         ; processos adicionais (vírgula separada)
+ExtendedProcs=         ; processos adicionais (separados por vírgula)
 ShowNotifications=1
 Language=pt-BR
 
@@ -64,7 +64,7 @@ Bravin/
 ├── source/
 │   ├── Bravin.au3            # Código fonte principal
 │   ├── Includes/             # Módulos (About, Update, Localization, etc.)
-│   └── Resources/Icons/      # Ícones do app
+│   └── Resources/Icons/      # Ícones do aplicativo
 ├── Language/                 # Arquivos de idioma (.ini)
 ├── Bravin.exe                # Build 32-bit
 ├── Bravin_X64.exe            # Build 64-bit
